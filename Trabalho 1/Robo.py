@@ -263,7 +263,7 @@ janela.mainloop()                               #Fechando a tela executa o proxi
 
 
 janelaLarg = Tk()                               #Abre a janela mostrando o algoritmo A*
-janelaLarg.title("Trajeto de um Robô usando Busca por Largura")
+janelaLarg.title("Trajeto deBusca por Largura")
 tabuleiroLarg = Tabuleiro(janelaLarg)
 robo2 = Robo(tabuleiroLarg, (0, 0), (14, 14))
 robo2.busca_largura()
